@@ -28,6 +28,9 @@ markdown: kramdown
 #plugins:
 #  - jekyll-feed
 
+sass:
+  sass_dir: _sass
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,13 +44,11 @@ markdown: kramdown
 #   - vendor/ruby/
 
 collections:
-  front-pages:
+  pages:
     output: true
 
 defaults:
   - scope:
-      path: "_front-pages"
+      path: "_pages"
     values:
       layout: base
-
-exclude: ['README.md']
