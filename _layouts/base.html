@@ -4,13 +4,12 @@
         <title>Base</title>
         <link rel="stylesheet" href="{{ '/css/app.css' | relative_url }}">
     </head>
-    <header>
-        {% include header.html %}
-    </header>
+    
     <body>
-        {{content}}
-        <footer>
-            {% include footer.html %}
-        </footer>
+        {% include header.html %}
+        <main>
+            {{content}}
+        </main>
+        {% include footer.html %}
     </body>
 </html>

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer{
+    display: block;
+}
+
+header{
+    background: #24272E;
+}
+
+footer{
+    background: #3f5568;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2, h3, p {
+    color: black;
+}

@@ -1,0 +1,26 @@
+.header-title{
+    background: #3f5568;
+}
+
+#header-nav > ul{
+    position: relative;
+}
+
+#header-nav ul li{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0px -2px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+#header-nav > ul > li:last-child{
+    float: right;
+}
+
+#header-nav ul li:hover{
+    cursor: pointer;
+    background: #3f5568;
+}
