@@ -2,4 +2,7 @@
 # must read sass folder
 ---
 
+@import "0-plugin/_0-plugin";
 @import "1-base/_1-base";
+@import "2-layout/_2-layout";
+@import "3-pages/_3-pages";
