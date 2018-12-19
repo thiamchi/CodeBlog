@@ -53,3 +53,5 @@ defaults:
       path: "_pages"
     values:
       layout: base
+
+permalink: :year-:month-:day-:title
