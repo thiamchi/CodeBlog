@@ -42,7 +42,7 @@ markdown: kramdown
 #   - vendor/ruby/
 
 # Search for SASS files inside assets/sass
-sass: { sass_dir: 'assets/sass' }
+sass: { sass_dir: 'assets/css' }
 
 # Use jekyll-redirect-from to allow redirections
 plugins:
